@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  line-height: normal;
+  height: 100%;
+  width: 100%;
+}
+.frame-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 3vw;
+  flex-shrink: 0;
+}
+.rectangle-div {
+  position: absolute;
+  height: 100%;
+  width: 93.23%;
+  top: 0;
+  right: 3.39%;
+  bottom: 0;
+  left: 3.39%;
+}
+.frame-icon1,
+.screen-div {
+  align-self: stretch;
+  position: relative;
+}
+.screen-div {
+  flex: 1;
+}
+.frame-icon1 {
+  max-width: 100%;
+  overflow: hidden;
+  height: 6vw;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-div {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-0);
+}
+.rectangle-icon {
+  position: relative;
+  border-radius: var(--br-sm);
+  width: 250px;
+  height: 600px;
+  flex-shrink: 0;
+}
+.div,
+.rectangle-div1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.div {
+  height: 81.4%;
+  top: 9.23%;
+  bottom: 9.37%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.rectangle-div1,
+.rectangle-div2,
+.rectangle-div3 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-md);
+  opacity: 0.35;
+  mix-blend-mode: lighten;
+}
+
+.rectangle-div1 {
+  background-color: rgb(0, 0, 255);
+}
+.rectangle-div2 {
+  background-color: rgb(255, 0, 0);
+}
+.rectangle-div3 {
+  background-color: rgb(0, 255, 0);
+}
+
+
+.frquentation-cinmatographiqu-b {
+  position: absolute;
+  height: 99.94%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 20px #000;
+  mix-blend-mode: normal;
+  user-select: none;
+}
+
+
+.frquentation-cinmatographiqu-b:hover {
+ opacity: 1;
+ text-shadow: 0 0 1px #000;
+ transition-duration: 0.15s;
+}
+.frquentation-cinmatographiqu-b:active {
+  transform: rotate(1.5deg);
+}
+
+.bouton-div,
+.cinema-div {
+  border-radius: var(--br-md);
+}
+.bouton-div {
+  position: absolute;
+  height: 90.45%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 9.55%;
+  left: 0;
+}
+.cinema-div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.bouton-div1,
+.div1,
+.rectangle-div2 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.div1 {
+  height: 80.98%;
+  top: 9.51%;
+  bottom: 9.51%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.bouton-div1,
+.rectangle-div2 {
+  border-radius: var(--br-md);
+}
+.rectangle-div2 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(red, red), #d9d9d9;
+  opacity: 0.35;
+  mix-blend-mode: lighten;
+}
+.bouton-div1 {
+  height: 90.45%;
+  top: -0.14%;
+  bottom: 9.68%;
+}
+.netflix-div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-md);
+  backdrop-filter: blur(40px);
+  margin-top: -100px;
+}
+.bouton-div2,
+.div2,
+.rectangle-div3 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.div2 {
+  height: 80.56%;
+  top: 9.79%;
+  bottom: 9.65%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.bouton-div2,
+.rectangle-div3 {
+  border-radius: var(--br-md);
+}
+.bouton-div2 {
+  height: 90.45%;
+  top: 0.14%;
+  bottom: 9.41%;
+}
+.chairs-div,
+.maquette-resp-desktop-version-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chairs-div {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.maquette-resp-desktop-version-div {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #838383, #171717);
+  width: 100%;
+  height: 167vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-0);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: TTTravelNext, var(--font-montserrat);
+}
+
+@media (max-width: 1000px) {
+  :root{
+    --font-size-base: 32px;
+  }
+}
+
+svg text {
+    fill: white;
+}
+svg .domain {
+    stroke: white;
+}

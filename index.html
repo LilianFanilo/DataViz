@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>Dataviz</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+</head>
+
+<body>
+
+
+  <div class="maquette-resp-desktop-version-div">
+    <img class="frame-icon" alt="" src="public/frame-94.svg" />
+    <!--     <div>
+      <ul>
+        <li class="temporalite">Mois</li>
+        <li class="temporalite">Trimestres</li>
+        <li class="temporalite">Années</li>
+      </ul>
+    </div> -->
+    <div class="frame-div">
+      <div class="screen-div">
+        <div class="rectangle-div graph">
+          <svg width="960" height="450"></svg>
+          <br>
+          <button type="button" onclick="showData2()">Années</button>
+          <button type="button" onclick="showData2()">Trimestre</button>
+          <button type="button" onclick="showData2()">Mois</button>
+
+        </div>
+      </div>
+      <img class="frame-icon1" alt="" src="public/frame-75.svg" />
+    </div>
+    <div class="chairs-div">
+      <div class="cinema-div">
+        <div class="div">
+          <img class="rectangle-icon" alt="" src="public/red sit.svg" /><img class="rectangle-icon" alt=""
+            src="public/red sit.svg" /><img class="rectangle-icon" alt="" src="public/red sit.svg" /><img
+            class="rectangle-icon" alt="" src="public/red sit.svg" /><img class="rectangle-icon" alt=""
+            src="public/red sit.svg" />
+        </div>
+        <div class="bouton-div">
+          <div class="rectangle-div1"></div>
+          <button class="bouttonData" type="button" onclick="showData3()"><b
+              class="frquentation-cinmatographiqu-b data1">Fréquentation cinématographique</b></button>
+        </div>
+      </div>
+      <div class="netflix-div">
+        <div class="div1">
+          <img class="rectangle-icon" alt="" src="public/red sit.svg" /><img class="rectangle-icon" alt=""
+            src="public/red sit.svg" /><img class="rectangle-icon" alt="" src="public/red sit.svg" /><img
+            class="rectangle-icon" alt="" src="public/red sit.svg" />
+        </div>
+        <div class="bouton-div1">
+          <div class="rectangle-div2"></div>
+          <button class="bouttonData" type="button" onclick="showData1()"><b
+              class="frquentation-cinmatographiqu-b data1">Abonnements Netflix</b></button>
+        </div>
+      </div>
+      <div class="netflix-div">
+        <div class="div2">
+          <img class="rectangle-icon" alt="" src="public/red sit.svg" /><img class="rectangle-icon" alt=""
+            src="public/red sit.svg" /><img class="rectangle-icon" alt="" src="public/red sit.svg" /><img
+            class="rectangle-icon" alt="" src="public/red sit.svg" /><img class="rectangle-icon" alt=""
+            src="public/red sit.svg" />
+        </div>
+        <div class="bouton-div2">
+          <div class="rectangle-div3"></div>
+
+
+          <button class="bouttonData" type="button" onclick="showData2()"><b
+              class="frquentation-cinmatographiqu-b data1">Cas de COVID-19</b></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="script_buttons.js"></script>
+  <script src="script3.js"></script>
+
+</body>
+
+</html>

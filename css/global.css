@@ -1,0 +1,33 @@
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 3vw;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-md: 60px;
+
+  /* Paddings */
+  --padding-md: 200px;
+
+  /* border radiuses */
+  --br-sm: 35.56px;
+  --br-md: 500px;
+  /*animation degree */
+  --rotation: 2s; 
+}
+html {zoom: 60%;}
+
+@font-face {
+  font-family: TTTravelNext;
+  src: url(../public/font/TT\ Travels\ Next\ Bold.ttf);
+}
+@font-face {
+  font-family: TTTravelNextOutline;
+  src: url(../public/font/TT\ Travels\ Next\ Black\ Outline.ttf);
+}

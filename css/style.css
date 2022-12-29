@@ -1,0 +1,58 @@
+/*couleurs de fond*/
+body{
+    margin: none;
+  }
+
+  /* la grille */
+.grid line {
+    stroke: white;
+    stroke-opacity: 1;
+    shape-rendering: crispEdges;
+  }
+  
+.grid path {
+    stroke-width: 0;
+  }
+  
+  /* zone*/
+.area1 {
+    fill: rgb(255,0,0);
+    display: none;
+  }
+
+.area2{
+    fill: rgb(0,255,0);
+      display: none;
+  }
+.area3 {
+    fill: rgb(0,0,255);
+    display: none;
+  }
+
+.area1,
+.area2,
+.area3,
+line,
+line2,
+line3{
+    mix-blend-mode: lighten;
+  }
+
+
+.bouttonData{
+  border: none;
+  padding: 0;
+  cursor: pointer;
+	outline: inherit;
+  display: inline-block;
+  text-decoration: none;
+  background-color: none;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: TTTravelNext, var(--font-montserrat);
+}
+svg{
+  padding: 10px;
+  background-color: black;
+}
